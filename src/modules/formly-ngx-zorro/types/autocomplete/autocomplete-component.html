@@ -1,0 +1,6 @@
+<input nz-input [(ngModel)]="model[key]" (input)="onInput($event.target?.value)" [nzAutocomplete]="to['auto']" >
+<nz-autocomplete nzBackfill #auto>
+    <nz-auto-option *ngFor="let option of data" [nzValue]="option.value">
+        {{option.label}}
+    </nz-auto-option>
+</nz-autocomplete>

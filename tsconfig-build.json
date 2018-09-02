@@ -38,7 +38,7 @@
         "skipTemplateCodegen": true,
         "annotateForClosureCompiler": true,
         "strictMetadataEmit": true,
-        "flatModuleOutFile": "angular-library-starter.js",
-        "flatModuleId": "angular-library-starter"
+        "flatModuleOutFile": "formly-ngx-zorro.js",
+        "flatModuleId": "formly-ngx-zorro"
     }
 }

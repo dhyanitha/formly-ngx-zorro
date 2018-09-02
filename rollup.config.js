@@ -34,6 +34,7 @@ import sourcemaps from 'rollup-plugin-sourcemaps';
 const globals = {
     '@angular/core': 'ng.core',
     '@angular/common': 'ng.common',
+    'ng-zorro-antd': 'ng.zorro',
     'rxjs': 'rxjs',
     'rxjs/operators': 'rxjs.operators'
 };
@@ -44,10 +45,10 @@ export default {
     onwarn: () => { return },
     output: {
         format: 'umd',
-        name: 'ng.angularLibraryStarter',
+        name: 'ng.formlyNgxZorro',
         globals: globals,
         sourcemap: true,
         exports: 'named',
-        amd: { id: 'angular-library-starter' }
+        amd: { id: 'formly-ngx-zorro' }
     }
 }
